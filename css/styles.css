@@ -280,7 +280,6 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
 .price-card-body h3 { margin: 4px 0 2px; font-size: 1.3rem; }
 .price-amount { font-size: 2.6rem; font-weight: 800; color: var(--navy); margin: 6px 0 0; line-height: 1; }
 .price-per { color: var(--muted); font-size: .9rem; margin: 6px 0 0; }
-.price-card .btn { width: 100%; justify-content: center; }
 
 /* ---------- Final CTA ---------- */
 .cta-final { background: linear-gradient(145deg, var(--navy), #1c2f70); color: #fff; }
@@ -291,6 +290,17 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
 .cta-final .lead { color: rgba(255,255,255,.75); margin-left: auto; margin-right: auto; }
 .contact-info { margin: 26px 0; color: rgba(255,255,255,.9); font-weight: 600; }
 .contact-info p { margin: 4px 0; }
+
+.lead-form-wrap {
+  margin: 8px auto 0; max-width: 480px; background: #fff;
+  border-radius: var(--radius-lg); box-shadow: var(--shadow); overflow: hidden;
+}
+.lead-form-wrap iframe { display: block; width: 100%; height: 520px; border: 0; }
+
+.or-divider {
+  margin: 28px 0 14px; color: rgba(255,255,255,.5); font-weight: 700;
+  font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+}
 
 /* ---------- Footer ---------- */
 .site-footer { background: #0f1c44; color: rgba(255,255,255,.85); padding: 48px 0 28px; }
