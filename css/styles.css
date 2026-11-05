@@ -269,6 +269,19 @@ h2 { font-size: clamp(1.6rem, 3.4vw, 2.3rem); }
   background: rgba(255,255,255,.12); border: none; color: #fff; font-size: 1.4rem; cursor: pointer;
 }
 
+/* ---------- Pricing ---------- */
+.pricing { background: var(--bg-alt); }
+.price-card {
+  margin-top: 34px; max-width: 420px;
+  background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius-lg);
+  box-shadow: var(--shadow); padding: 30px; text-align: center;
+  display: flex; flex-direction: column; align-items: center; gap: 16px;
+}
+.price-card-body h3 { margin: 4px 0 2px; font-size: 1.3rem; }
+.price-amount { font-size: 2.6rem; font-weight: 800; color: var(--navy); margin: 6px 0 0; line-height: 1; }
+.price-per { color: var(--muted); font-size: .9rem; margin: 6px 0 0; }
+.price-card .btn { width: 100%; justify-content: center; }
+
 /* ---------- Final CTA ---------- */
 .cta-final { background: linear-gradient(145deg, var(--navy), #1c2f70); color: #fff; }
 .cta-final-inner { text-align: center; max-width: 760px; }
