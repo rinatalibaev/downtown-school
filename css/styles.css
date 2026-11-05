@@ -80,7 +80,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 12px; padding-bottom: 12px; }
 
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand-mark { border-radius: 9px; }
+.brand-mark { display: block; width: auto; }
 .brand-text { display: flex; flex-direction: column; line-height: 1.1; }
 .brand-text strong { font-size: 1.05rem; letter-spacing: .02em; color: var(--navy); }
 .brand-text small { font-size: .68rem; color: var(--muted); font-weight: 600; }
